@@ -1,0 +1,31 @@
+# このリポジトリは生成済みの4パネルチャート画像(PNG)のみを公開する。
+# 著作権・手法秘匿の観点から、以下は絶対にコミットしない。
+
+# 原典記事のHTMLアーカイブ・画像
+docs/codex_examples/
+
+# 原典ソースPDF(247ページ)およびその抜粋・要約
+*.pdf
+原典定義*.md
+
+# EAソースコード
+*.mq4
+*.ex4
+*.mqh
+
+# Pythonパイプライン一式
+oku100/
+scripts/
+
+# 生データ(CSV)
+data/
+*.csv
+
+# プロジェクトドキュメント全般(pending_hypotheses.md・SKILL・チェックリスト類を含む)
+docs/*.md
+*.md
+
+# MT4履歴ファイル・バックテスト結果
+*.hst
+results_*.json
+*_summary.json
